@@ -8,39 +8,37 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" nedia="screen">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row header">
-        <div class="col-md-1">
-
-        </div>
-        <div class="col-md-2">
-            <h2>Ts. Jinneth</h2>
-        </div>
-
-        <div class="col-md-9">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">¿Quién soy?</a></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Orientación profesional</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Riesgos Laborales - HSEQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Agenda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active last" href="#">Contacto</a>
-            </li>
-
-          </ul>
-
-        </div>
-      </div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">Ts. Jinneth</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">¿Quién soy?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Riesgos Laborales - HSEQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Orientación Profesional</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Agenda</a>
+        </li>
+        <li class="nav-item navLast">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
 
     </div>
+  </nav>
+
+
 
     <div class="container-fluid divSection">
 
@@ -52,21 +50,21 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 imgCar" src="imag/car1.jpg" alt="Libertad">
+            <img class="d-block w-100 img-responsive" src="imag/car1.jpg" alt="Libertad">
             <div class="carousel-caption d-none d-md-block">
               <h5>Medioambiente</h5>
               <p>Entender nuestra influencia en el medio ambiente para tomar mejores caminos hacia la conservación.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 imgCar" src="imag/car22.jpg" alt="Logros">
+            <img class="d-block w-100 img-responsive" src="imag/car22.jpg" alt="Logros">
             <div class="carousel-caption d-none d-md-block">
               <h5>Tranquilidad</h5>
               <p>Este espacio es tranquilo ahora. Hago parte de el y el es mi entorno.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 imgCar" src="imag/car3_r.jpg" alt="Opciones">
+            <img class="d-block w-100 img-responsive" src="imag/car3_r.jpg" alt="Opciones">
             <div class="carousel-caption d-none d-md-block">
               <h5>Meditación</h5>
               <p>La paz viene del interior. No la busques fuera.</p>
@@ -87,17 +85,17 @@
     <div class="container-fluid divSection text-center"><h2>Servicios Ofrecidos</h2>
       <div class="row justify-content-center">
         <div class="col-md-3 text-center">
-          <img src="imag/market1.jpg" alt="" class="imgRounded">
+          <img src="imag/market4.jpg" alt="" class="imgRounded img-fluid">
           <h2>Su certificación HSEQ</h2>
           <p>Soy experta en la implementación de Sistemas HSEQ. ¡Vamos a guiar a su empresa hacia el logro de la certificación!</p>
         </div>
         <div class="col-md-3 text-center">
-          <img src="imag/market2.jpg" alt="" class="imgRounded">
+          <img src="imag/market2.jpg" alt="" class="imgRounded img-fluid">
           <h2>Orientación Profesional</h2>
           <p>Más de 100 casos de éxito demostrables con jóvenes profesionales. Su pasión y mi orientación forman la llave de su éxito profesional.</p>
         </div>
         <div class="col-md-3 text-center">
-          <img src="imag/market3.jpg" alt="" class="imgRounded">
+          <img src="imag/market5.jpg" alt="" class="imgRounded img-fluid">
           <h2>Atención a la Familia</h2>
           <p>¿Qué es más importante que la familia? La atención al núcleo social básico es una de mis prioridades como Trabajadora Social Licenciada.</p>
         </div>
@@ -106,8 +104,8 @@
 
     <div class="container-fluid divSection divSectionWhy">
       <div class="row justify-content-center">
-        <div class="col-6">
-          <h1 class="display-4 why">¿Por qué implementar HSEQ?</h1>
+        <div class="col-md-6">
+          <h2 class="why">¿Por qué implementar HSEQ?</h2>
           <p class="why">HSEQ es el Sistema de Gestión de Calidad, creado para garantizar estándares internacionales de calidad
             operativos en las organizaciones. Además, deberán ser controlados y monitoreados. Según el consejo
             colombiano de seguridad (CSS), el año pasado se notificaron aproximadamente 8900 enfermedades laborales,
@@ -116,16 +114,14 @@
             de forma oportuna las diferentes normas establecidas en el Sistema de Gestión de Calidad, que garantiza una
             mayor competitividad y un menor riesgo en cuanto a los incidentes laborales.</p>
         </div>
-        <div class="col-6 divWhy">
+        
+        <div class="col-md-6">
+          <img src="imag/porque.jpg" alt="" class="img-fluid">
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="">
 
-      </div>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
