@@ -53,11 +53,9 @@ body, h5, p  {
 
 .divSectionWhy {
   background-color: #F4F6F7;
+}
 
-}
-.divSectionWhy h1, p {
-  color: #1B2631;
-}
+.why {color: #1B2631;}
 
 .divWhy {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../imag/porque.jpg')  no-repeat center top;
