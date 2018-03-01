@@ -1,0 +1,66 @@
+body {
+  background-color: #1B2631;
+}
+
+body, h5, p  {
+  color: #A9F5F2;
+}
+
+
+.divSection {
+  margin-top: 10px;
+}
+
+.header {
+  background-color: #0003FF;
+}
+
+.nav-item {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.nav-link {
+  color: #A9F5F2;;
+  padding: 5px 15px;
+  border-right: 1px solid #A9F5F2;
+  border-top: 2px solid #0003FF;
+
+}
+
+.nav-link.last {
+  border-right: 0;
+}
+
+.nav-link:hover {
+  color: #A9F5F2;
+  border-top: 2px solid #A9F5F2;
+}
+
+.d-md-block {
+  background:rgba(0,0,0,0.4);
+}
+
+.imgCar {
+  width: 1233px; height: 453px
+}
+
+
+.imgRounded {
+  border-radius: 50%;
+  width: 200px; height: 190px;
+}
+
+.divSectionWhy {
+  background-color: #F4F6F7;
+
+}
+.divSectionWhy h1, p {
+  color: #1B2631;
+}
+
+.divWhy {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../img/PorQue.jpg')  no-repeat center top;
+    background-size: cover;
+    color: #ffffff;
+}
