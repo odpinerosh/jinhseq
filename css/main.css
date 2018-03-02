@@ -38,7 +38,11 @@ body, h5, p  {
   margin-top: 15px;
 }
 
-.d-md-block {
+  .jumbotron {
+    display: none;
+  }
+
+.carousel-caption {
   background:rgba(0,0,0,0.4);
 }
 
@@ -54,6 +58,11 @@ body, h5, p  {
 
 .divSectionWhy {
   background-color: #F4F6F7;
+
+}
+
+.con {
+  background-color: #1B2631;
 }
 
 .why {color: #1B2631;}
@@ -64,21 +73,21 @@ body, h5, p  {
     color: #ffffff;
 }*/
 
+@media screen and (max-width: 800px) {
 
-@include media-breakpoint-up(sm) {
   html {
-    font-size: 1.2rem;
+    font-size: .8rem;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .jumbotron {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../imag/jumbo2.jpg')  no-repeat center top;
+    background-size: cover;
+    color: ##A9F5F2;
   }
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
